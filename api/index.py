@@ -53,7 +53,7 @@ def cek_breakout(simbol):
 @app.route('/')
 def home():
     # Contoh list diperpendek (Gunakan list lengkap Anda di sini)
-saham_pilihan = [
+    saham_pilihan = [
      'MBMA.JK', 'DOOH.JK', 'DEWA.JK', 'ARCI.JK', 'EMAS.JK', 'CUAN.JK', 'TPIA.JK', 'DSSA.JK', 'BIPI.JK', 'CDIA.JK', 'HRTA.JK', 'COIN.JK', 'EMTK.JK', 'NICL.JK', 'BUVA.JK', 'BELL.JK', 'JGLE.JK', 'OASA.JK', 'RAJA.JK', 'AKRA.JK'] 
     
     results = []
